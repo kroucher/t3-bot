@@ -12,6 +12,7 @@ specifiers:
   prisma: ^4.2.1
   ts-node: ^10.9.1
   ts-node-esm: ^0.0.6
+  tslib: ^2.4.0
   typescript: ^4.7.4
 
 dependencies:
@@ -29,6 +30,7 @@ devDependencies:
   prisma: 4.2.1
   ts-node: 10.9.1_dtx66zsengmwkstxn6e2ad6yki
   ts-node-esm: 0.0.6_eflg22l5q42ulu7govl7lipxem
+  tslib: 2.4.0
 
 packages:
 
