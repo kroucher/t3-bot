@@ -9,8 +9,7 @@ const client = new Client({
   ],
   partials: [Partials.Channel, Partials.Message],
 });
-import dotenv from "dotenv";
-dotenv.config();
+require("dotenv").config();
 
 const eventsPath = path.join(__dirname, "events");
 const eventFiles = fs
@@ -27,5 +26,6 @@ for (const file of eventFiles) {
   }
 }
 
-client.login(process.env.TOKEN);
-console.log(client);
+client.login(process.env.TOKEN).then(() => {
+  console.log("Logged in");
+});
