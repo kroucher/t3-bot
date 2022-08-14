@@ -18,7 +18,7 @@
     "sourceMap": false,
     "baseUrl": "./"
   },
-  "files": ["src/index.mjs"],
-  "include": ["./**/*.ts", "src/events/ready.mjs", "src/index.mjs"],
+  "files": ["src/index.ts"],
+  "include": ["./**/*.ts", "src/events/ready.mjs", "src/index.ts"],
   "exclude": ["node_modules", "dist"]
 }
