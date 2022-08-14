@@ -1,0 +1,20 @@
+{
+  "name": "t3-bot",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord-api-types": "^0.37.2",
+    "discord.js": "^14.2.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.45",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.19",
+    "prisma": "^4.2.1",
+    "ts-node": "^10.9.1"
+  }
+}
