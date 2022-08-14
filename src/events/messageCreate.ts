@@ -10,6 +10,13 @@ module.exports = {
     }
 
     let checkMessage = message.content.split(" ");
+
+    if (message.mentions && checkMessage.some((word) => word === "!thread")) {
+      message.startThread({
+        name: `New thread from ${message.author.tag}`,
+      });
+    }
+
     if (checkMessage.some((word) => word === "<@252311374884110336>")) {
       message.reply("Bruh.. Rule #1.");
     }
